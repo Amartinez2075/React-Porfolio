@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: #140d4f;
+}
+
+/* Center the navbar horizontally */
+.Menu-Bar {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  background-color: #6fedb7;
+}
+
+/* Style the navbar links */
+.Menu-Bar a {
+  float: left;
+  display: block;
+  color: #00000071;
+  text-align: center;
+  padding: 14px 20px;
+  transition: background-color 0.3s ease;
+  position: relative; /* added position relative for ::after pseudo-element */
+}
+
+/* Add the line underneath when hovering */
+.Menu-Bar a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3px; /* set the height of the line */
+  background-color: #000000; /* set the color of the line */
+  transform: scaleX(0); /* initially hide the line */
+  transition: transform 0.3s ease;
+}
+
+.Menu-Bar a:hover {
+  background-color: green;
+  color: #1c0b19;
+}
+
+.Menu-Bar a:hover::after {
+  transform: scaleX(1); /* show the line on hover */
+}
+
+Header {
+  font-family: 'Orbit', sans-serif;
+  font-size: 70px;
+  text-align: center;
+  margin-top: 50px;
+  color: #e7f59e;
+}
+
+h1 {
+  font-family: 'Orbit', sans-serif;
+  font-size: 20px;
+  color: #e7f59e;
+  text-align: center;
+  margin-bottom: 20px; /* Add margin-bottom to create space between h1 and .ImageContainer */
+}
+
+.ImageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* Stack the image and #about section vertically */
+  width: 100%;
+  margin-top: 20px; /* Adjust the top margin as needed */
+}
+
+.ImageContainer img {
+  max-width: 100%;
+  max-height: 200%;
+  object-fit: contain;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+  margin: 20px auto 0; /* Adjust the margin as needed */
+}
+
+#about {
+  padding: 20px;
+  text-align: center;
+  margin: 20px; /* Center the section horizontally */
+  max-width: 600px; /* Limit the width of the section */
+  color: #4ea699;
+  text-align: center;
+}
+
+#about h2 {
+  font-size: 24px; /* Set the font size for the heading */
+  margin-bottom: 10px; /* Add spacing below the heading */
+  color: #e7f59e;
+  border-radius: 50px;
+}
+
+#about p {
+  font-size: 32px; /* Set the font size for the paragraph */
+  line-height: 2; /* Set the line height for the paragraph */
+  color: #e7f59e;
+  font-family: DotGothic16, sans-serif;
+  font-weight: 10px;
+  font-size: 20px;
+}
+
+#Thick-Section {
+  background-color: #6fedb7;
+  padding: 10px;
+  text-align: center;
+  margin: 20px; /* Center the section horizontally */
+  max-width: 3000px; /* Limit the width of the section */
+  color: #ffffff;
+}

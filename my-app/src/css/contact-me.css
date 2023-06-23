@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: #140d4f;
+}
+
+/* Center the navbar horizontally */
+.Menu-Bar {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  background-color: #6fedb7;
+}
+
+/* Style the navbar links */
+.Menu-Bar a {
+  float: left;
+  display: block;
+  color: #00000071;
+  text-align: center;
+  padding: 14px 20px;
+  transition: background-color 0.3s ease;
+  position: relative; /* added position relative for ::after pseudo-element */
+}
+
+/* Add the line underneath when hovering */
+.Menu-Bar a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3px; /* set the height of the line */
+  background-color: #000000; /* set the color of the line */
+  transform: scaleX(0); /* initially hide the line */
+  transition: transform 0.3s ease;
+}
+
+.Menu-Bar a:hover {
+  background-color: green;
+  color: #1c0b19;
+}
+
+.Menu-Bar a:hover::after {
+  transform: scaleX(1); /* show the line on hover */
+}
