@@ -24,7 +24,7 @@ THEN I am presented with the titles About Me, Portfolio, Contact, and Resume, an
 
 WHEN I click on a navigation title
 
-THEN I am presented with the corresponding section below the navigation without the page reloading and that title is highlighted
+THEN I am presented with the corresponding section below the navigation without the page reloading and that title is highlighted ##HERE RN
 
 WHEN I load the portfolio the first time
 
