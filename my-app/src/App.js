@@ -1,11 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
 import React from 'react';
-import About from './components/About.js';
-import ContactMe from './components/ContactMe.js';
-import Skills from './components/Skills.js';
-import Projects from './components/Projects.js';
-import Menubar from './components/Menubar';
+import About from 'my-app\src\components\About.js';
+import ContactMe from 'my-app\src\components\ContactMe.js';
+import Skills from 'my-app\src\components\Skills.js';
+import Projects from 'my-app\src\components\Projects.js';
+import Menubar from 'my-app\src\components\Menubar.js';
 
 function App() {
   return (
@@ -15,9 +13,9 @@ function App() {
       <ContactMe />
       <Skills />
       <Projects />
-
     </div>
   );
 }
 
 export default App;
+
