@@ -7,6 +7,7 @@ export default function Menubar() {
   <a href="#skills">Skills</a>
   <a href="#projects">Projects</a>
   <a href="#contact-me">Contact Me</a>
+  <a href="#resume">Resume</a>
   </div>
   </div>
   );
