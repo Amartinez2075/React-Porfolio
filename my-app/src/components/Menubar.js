@@ -1,5 +1,13 @@
 export default function Menubar() {
   return (
-    <h1>Menubar</h1>
+  <div>
+  {/* Menu Bar */}
+  <div class="Menu-Bar">
+  <a href="#about">About Me</a>
+  <a href="#skills">Skills</a>
+  <a href="#projects">Projects</a>
+  <a href="#contact-me">Contact Me</a>
+  </div>
+  </div>
   );
-}
+  }
