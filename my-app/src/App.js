@@ -5,12 +5,16 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Menubar from './components/Menubar';
 import Resume from './components/Resume';
-import Render from './components/pages/Render';
 
 function App() {
   return (
     <div>
-      <Render />
+      <Menubar />
+      <About />
+      <ContactMe />
+      <Skills />
+      <Projects />
+      <Resume />
     </div>
   );
 }

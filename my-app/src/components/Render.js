@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import About from '../About.js';
 import Skills from '../Skills.js';
 import Projects from '../Projects.js';
-import Menubar from '../components/Menubar';
+import Menubar from '../pages/Menubar.js';
 import Resume from '../Resume.js';
 import ContactMe from '../ContactMe.js';
 
