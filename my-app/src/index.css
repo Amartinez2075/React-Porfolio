@@ -311,3 +311,10 @@ footer h2 {
 #contactForm button[type="submit"]:hover {
   background-color: #45a049;
 }
+
+button {
+  background-color: blue;
+  color: white;
+  display: block;
+  margin: 0 auto;
+}
