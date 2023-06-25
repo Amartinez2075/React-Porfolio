@@ -1,18 +1,19 @@
 export default function Resume() {
   return (
     <div>
-      {/* <!-- Resume Section --> */}
+      {/* Resume Section */}
       <section id="resume">
         <h1>Resume</h1>
         <p>
-          <a href="">
-            <span className="resume">Resume</span>
+          <a href="..\Ashara Martinez PDF.pdf" download>
+            <button>Download Resume</button>
           </a>
         </p>
       </section>
-      {/* <!-- Orange Section content here --> */}
+      
+      {/* Thick Section */}
       <section id="Thick-Section">
-        {/* <!-- Orange Section content here --> */}
+        {/* Thick Section content here */}
       </section>
     </div>
   );
