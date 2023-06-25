@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
-import NavTabs from './NavTabs';
-import Home from './pages/Home';
-import About from './pages/About';
-import Blog from './pages/Blog';
-import Contact from './pages/Contact';
+import About from '../About.js';
+import Skills from '../Skills.js';
+import Projects from '../Projects.js';
+import Menubar from '../components/Menubar';
+import Resume from '../Resume.js';
+import ContactMe from '../ContactMe.js';
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('Home');
@@ -12,22 +13,22 @@ export default function PortfolioContainer() {
    // Method to render the appropriate page component based on the value of currentPage
   const renderPage = () => {
     if (currentPage === 'About') {
-      return <Home />;
-    }
-    if (currentPage === 'Skills') {
       return <About />;
     }
+    if (currentPage === 'Skills') {
+      return <Skills />;
+    }
     if (currentPage === 'Projects') {
-      return <Blog />;
+      return <Projects />;
     }
     if (currentPage === 'ContactMe') {
-      return <Contact />;
+      return <ContactMe />;
     }
     if (currentPage === 'Resume') {
-      return <Contact />;
+      return <Resume />;
     }
      // Default case: Render the Contact component if none of the above conditions are met
-    return <Contact />;
+    return <About />;
   };
 
   // Function to handle the page change when a tab is clicked
@@ -35,10 +36,8 @@ export default function PortfolioContainer() {
 
   return (
     <div>
-      {/* // TODO: Add a comment describing what we are passing as props */}
       {/* Pass the currentPage and handlePageChange function as props to the NavTabs component */}
-      <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
-      {/* // TODO: Add a comment explaining what is happening on the following line */}
+      <Menubar currentPage={currentPage} handlePageChange={handlePageChange} />
        {/* Render the appropriate page component based on the value of currentPage */}
       {renderPage()}
     </div>
