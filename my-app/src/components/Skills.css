@@ -1,0 +1,146 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 10px;
+}
+
+.skills-section {
+  grid-column: 1 / 6;
+  grid-row: 1 / 2;
+}
+
+.skill-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.html {
+  background-color: #e44d26;
+  grid-row:  6/ 0;
+}
+
+.css {
+  background-color: #2965f1;
+  grid-row: 6 / 0;
+}
+
+.js {
+  background-color: #e44d26;
+  grid-row: 6 / 0;
+}
+
+.react {
+  background-color: #2965f1;
+  grid-row: 6 / 0;
+}
+
+.node {
+  background-color: #e44d26;
+  grid-row: 6 / 0;
+}
+
+.sql {
+  background-color: #2965f1;
+  grid-row: 6 / 0;
+}
+
+.mongo {
+  background-color: #e44d26;
+  grid-row: 6 / 0;
+}
+
+.express {
+  background-color: #2965f1;
+  grid-row: 6 / 0;
+}
+
+.git {
+  background-color: #e44d26;
+  grid-row: 6 / 0;
+}
+
+.github {
+  background-color: #2965f1;
+  grid-row: 6 / 0;
+}
+
+.heroku {
+  background-color: #e44d26;
+  grid-row: 6 / 0;
+}
+
+.bootstrap {
+  background-color: #2965f1;
+  grid-row: 6 / 0;
+}
+
+.jquery {
+  background-color: #e44d26;
+  grid-row: 6 / 0;
+}
+
+.npm {
+  background-color: #2965f1;
+  grid-row: 6 / 0;
+}
+
+.api {
+  background-color: #e44d26;
+  grid-row: 6 / 0;
+}
+
+.ajax {
+  background-color: #2965f1;
+  grid-row: 6 / 0;
+}
+
+.json {
+  background-color: #e44d26;
+  grid-row: 6 / 0;
+}
+
+.handlebars {
+  background-color: #2965f1;
+  grid-row: 6 / 0;
+}
+
+.sequelize {
+  background-color: #e44d26;
+  grid-row: 6 / 0;
+}
+
+.mongoose {
+  background-color: #2965f1;
+  grid-row: 6 / 0;
+}
+
+.jest {
+  background-color: #e44d26;
+  grid-row: 6 / 0;
+}
+
+.mysql {
+  background-color: #2965f1;
+  grid-row: 6 / 0;
+}
+
+.mern {
+  background-color: #e44d26;
+  grid-row: 6 / 0;
+}
+
+.mvc {
+  background-color: #2965f1;
+  grid-row: 6 / 0;
+}
+
+.es6 {
+  background-color: #e44d26;
+  grid-row: 6 / 0;
+}

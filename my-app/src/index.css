@@ -4,9 +4,9 @@
 
 /* Style the body */
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Orbit', sans-serif;
   margin: 0;
-  background-color: #140d4f;
+  background-color: #242424;
 }
 
 /* Center the navbar horizontally */
@@ -14,7 +14,8 @@ body {
   display: flex;
   justify-content: center;
   overflow: hidden;
-  background-color: #6fedb7;
+  background-color: #e44d26;
+  font-weight: 400;
 }
 
 /* Style the navbar links */
@@ -42,7 +43,7 @@ body {
 }
 
 .Menu-Bar a:hover {
-  background-color: green;
+  background-color: #76D0B4;
   color: #1c0b19;
 }
 
@@ -55,13 +56,13 @@ Header {
   font-size: 70px;
   text-align: center;
   margin-top: 50px;
-  color: #e7f59e;
+  color: #e44d26;
 }
 
 h1 {
   font-family: 'Orbit', sans-serif;
   font-size: 20px;
-  color: #e7f59e;
+  color: #e44d26;
   text-align: center;
   margin-bottom: 20px; /* Add margin-bottom to create space between h1 and .ImageContainer */
 }
@@ -98,26 +99,24 @@ h1 {
 #about h2 {
   font-size: 24px; /* Set the font size for the heading */
   margin-bottom: 10px; /* Add spacing below the heading */
-  color: #e7f59e;
+  color: #76D0B4;
   border-radius: 50px;
 }
 
 #about p {
   font-size: 32px; /* Set the font size for the paragraph */
   line-height: 2; /* Set the line height for the paragraph */
-  color: #e7f59e;
-  font-family: DotGothic16, sans-serif;
+  color: #76D0B4;
   font-weight: 10px;
   font-size: 20px;
 }
 
 #Thick-Section {
-  background-color: #6fedb7;
+  background-color: #e44d26;
   padding: 10px;
   text-align: center;
   margin: 20px; /* Center the section horizontally */
   max-width: 3000px; /* Limit the width of the section */
-  color: #ffffff;
 }
 
 #skills {
@@ -129,7 +128,7 @@ h1 {
   margin: 100px; /* Add margin-bottom to create space between h1 and .ImageContainer */
 }
 
-#skills  h1 {
+#skills h1 {
   font-size: 24px; /* Set the font size for the heading */
   margin: 20px; /* Add spacing below the heading */
   color: #e7f59e;
@@ -137,9 +136,9 @@ h1 {
   text-align: center;
 }
 
-#skills  p {
+#skills p {
   font-size: 24px; /* Set the font size for the heading */
-margin: 20px;
+  margin: 20px;
   color: #e7f59e;
   border-radius: 50px;
   text-align: left;
@@ -148,21 +147,19 @@ margin: 20px;
   flex-wrap: wrap;
 }
 
-
 #projects {
   padding: 20px;
   text-align: center;
   margin: 20px; /* Center the section horizontally */
   max-width: 2000px; /* Limit the width of the section */
   color: #e7f59e;
-  margin: 100px; 
-} 
-
+  margin: 100px;
+}
 
 #projects h1 {
   font-size: 24px; /* Set the font size for the heading */
   margin-bottom: 10px; /* Add spacing below the heading */
-  color: #e7f59e;
+  color: #e44d26;
   border-radius: 50px;
   text-align: left;
   text-align: center;
@@ -189,7 +186,7 @@ margin: 20px;
   display: inline-block;
   width: 256px;
   height: 128px;
-  background-color: orange;
+  background-color: #e44d26;
   color: black;
   text-align: center;
   line-height: 40px;
@@ -203,7 +200,7 @@ margin: 20px;
   display: inline-block;
   width: 128px;
   height: 128px;
-  background-color: rgb(0, 183, 255);
+  background-color: #2965f1;
   color: black;
   text-align: center;
   line-height: 40px;
@@ -216,7 +213,7 @@ margin: 20px;
   display: inline-block;
   width: 128px;
   height: 128px;
-  background-color: #4CAF50;
+  background-color: #e44d26;
   color: black;
   text-align: center;
   line-height: 40px;
@@ -225,7 +222,7 @@ margin: 20px;
   font-size: 20px;
 }
 
-.GitHub{
+.GitHub {
   display: inline-block;
   width: 128px;
   height: 128px;

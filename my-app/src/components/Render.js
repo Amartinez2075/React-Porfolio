@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import About from '../About.js';
-import Skills from '../Skills.js';
-import Projects from '../Projects.js';
-import Menubar from '../pages/Menubar.js';
-import Resume from '../Resume.js';
-import ContactMe from '../ContactMe.js';
+import About from './About.js';
+import Skills from './Skills.js';
+import Projects from './Projects.js';
+import Menubar from './Menubar.js';
+import Resume from './Resume.js';
+import ContactMe from './ContactMe.js';
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('Home');

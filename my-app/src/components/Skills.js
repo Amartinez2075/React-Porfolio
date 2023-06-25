@@ -1,27 +1,39 @@
-export default function Skills() {
+import React from "react";
+import "./Skills.css";
+
+const Skills = () => {
   return (
-    <div>
-    <section id="skills">
-    <h1>Skills</h1>
-    <p>
-    <img src="Screenshots/HTML.png" alt="HTML" width="64" height="64" />
-    <img src="Screenshots/CSS.png" alt="CSS" width="64" height="64" />
-    <img src="Screenshots/Javascript.png" alt="Javascript" width="64" height="64" />
-    <img src="Screenshots/Mysql.png" alt="MYSQL" width="64" height="64" />
-    <img src="Screenshots/Jquery.png" alt="Node" width="64" height="64" />
-    <img src="Screenshots/Insomnia.png" alt="Insomnia" width="64" height="64" />
-    <img src="Screenshots/MongoDb compass.png" alt="MongDB" width="64" height="64" />
-    <img src="Screenshots/NPM.png" alt="NPM" width="64" height="64" />
-    <img src="Screenshots/Git Logo (1).png" alt="Git Logo" width="64" height="64" />
-    </p>
-    <p>
-    I know more technologies than what is listed above, but these are the ones I am most familiar with.
-    </p>
-    </section>
-     {/* <!-- Orange Section content here --> */}
-<section id="Thick-Section">
-  {/* <!-- Orange Section content here --> */}
-</section>
-</div>
+    <div className="grid-container">
+      <section className="skills-section">
+        <h1>Skills</h1>
+      </section>
+      <section className="skill-box html">HTML</section>
+      <section className="skill-box css">CSS</section>
+      <section className="skill-box js">JavaScript</section>
+      <section className="skill-box react">React</section>
+      <section className="skill-box node">Node.js</section>
+      <section className="skill-box sql">SQL</section>
+      <section className="skill-box mongo">MongoDB</section>
+      <section className="skill-box express">Express.js</section>
+      <section className="skill-box git">Git</section>
+      <section className="skill-box github">GitHub</section>
+      <section className="skill-box heroku">Heroku</section>
+      <section className="skill-box bootstrap">Bootstrap</section>
+      <section className="skill-box jquery">jQuery</section>
+      <section className="skill-box npm">Npm</section>
+      <section className="skill-box api">APIs</section>
+      <section className="skill-box ajax">AJAX</section>
+      <section className="skill-box json">JSON</section>
+      <section className="skill-box handlebars">Handlebars</section>
+      <section className="skill-box sequelize">Sequelize</section>
+      <section className="skill-box mongoose">Mongoose</section>
+      <section className="skill-box jest">Jest</section>
+      <section className="skill-box mysql">MySQL</section>
+      <section className="skill-box mern stack">MERN Stack</section>
+      <section className="skill-box mvc">MVC</section>
+      <section className="skill-box es6">ES6</section>
+    </div>
   );
-  }
+};
+
+export default Skills;
