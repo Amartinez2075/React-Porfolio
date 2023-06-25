@@ -56,7 +56,7 @@ Header {
   font-size: 70px;
   text-align: center;
   margin-top: 50px;
-  color: #e44d26;
+  color: #4ea699;
 }
 
 h1 {
@@ -249,6 +249,8 @@ footer h2 {
 #contact-me {
   text-align: center;
   margin: 20px;
+  font-size: 24px;
+  color: #76D0B4;
 }
 
 #contact-me h2 {
