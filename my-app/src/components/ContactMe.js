@@ -1,10 +1,30 @@
 import React, { useState } from "react";
+import emailjs from "emailjs-com";
 
 export default function ContactMe() {
   const [showForm, setShowForm] = useState(false);
 
   const handleShowForm = () => {
     setShowForm(true);
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    try {
+      await emailjs.sendForm(
+        "service_ID80067",
+        "template_yy9bdwi",
+        e.target,
+        "q1wuDMMOgKS24_Bmk"
+      );
+      // Reset form fields
+      e.target.reset();
+      alert("Email sent successfully!");
+    } catch (error) {
+      console.error("Error sending email:", error);
+      alert("An error occurred while sending the email.");
+    }
   };
 
   return (
@@ -25,7 +45,7 @@ export default function ContactMe() {
           </button>
         )}
         {showForm && (
-          <form id="contactForm" action="/submit" method="POST">
+          <form id="contactForm" onSubmit={handleSubmit}>
             <label htmlFor="name">Name:</label>
             <input type="text" id="name" name="name" required />
             <label htmlFor="email">Email:</label>
@@ -39,3 +59,8 @@ export default function ContactMe() {
     </footer>
   );
 }
+
+
+// Current Public API key = q1wuDMMOgKS24_Bmk
+// Current Template ID = template_yy9bdwi
+// Current Service ID = service_ID80067

@@ -8,7 +8,6 @@ import Contact from './Skills.js';
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('Home');
 
-  // TODO: Add a comment describing the functionality of this method
    // Method to render the appropriate page component based on the value of currentPage
   const renderPage = () => {
     if (currentPage === 'About') {
@@ -38,10 +37,8 @@ export default function PortfolioContainer() {
 
   return (
     <div>
-      {/* // TODO: Add a comment describing what we are passing as props */}
       {/* Pass the currentPage and handlePageChange function as props to the NavTabs component */}
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
-      {/* // TODO: Add a comment explaining what is happening on the following line */}
        {/* Render the appropriate page component based on the value of currentPage */}
       {renderPage()}
     </div>

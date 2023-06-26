@@ -272,13 +272,11 @@ footer h2 {
 }
 
 #contactForm {
-  display: none;
   text-align: left;
   margin-top: 20px;
 }
 
 #contactForm label {
-  display: block;
   margin-bottom: 5px;
   font-weight: bold;
 }
