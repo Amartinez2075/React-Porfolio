@@ -15,9 +15,9 @@ export default function ContactMe() {
       await emailjs.sendForm(
         //service_ID, template_ID, e.target, user_ID
         "service_ID80067",
-        "template_yy9bdwi",
+        "template_c5xi21q",
         e.target,
-        "q1wuDMMOgKS24_Bmk",
+        "0lf4MTEWnTCOzmStD"
       );
       // Reset form fields
       e.target.reset();
