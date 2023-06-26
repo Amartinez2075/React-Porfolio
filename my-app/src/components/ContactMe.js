@@ -17,7 +17,7 @@ export default function ContactMe() {
         "service_ID80067",
         "template_yy9bdwi",
         e.target,
-        "q1wuDMMOgKS24_Bmk"
+        "q1wuDMMOgKS24_Bmk",
       );
       // Reset form fields
       e.target.reset();
