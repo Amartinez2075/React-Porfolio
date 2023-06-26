@@ -3,7 +3,7 @@ export default function About() {
  
     {/*  <!-- Image Container -->*/}
 
-<div class="ImageContainer"> 
+<div className="ImageContainer"> 
   <header>Ashara Martinez</header>
   <h1> The Tale of a Full-Stack Developer </h1>
 

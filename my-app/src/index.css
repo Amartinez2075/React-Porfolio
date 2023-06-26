@@ -182,7 +182,7 @@ h1 {
   margin-right: 5px;
 }
 
-.project-rectangle {
+.project-rectangle-A {
   display: inline-block;
   width: 256px;
   height: 128px;
@@ -196,7 +196,7 @@ h1 {
   text-align: center;
 }
 
-.project-square-light-blue {
+.project-square-A {
   display: inline-block;
   width: 128px;
   height: 128px;
@@ -209,17 +209,43 @@ h1 {
   font-size: 20px;
 }
 
-.project-square-green {
+.project-square-B {
   display: inline-block;
   width: 128px;
   height: 128px;
-  background-color: #e44d26;
+  background-color: #c706ee;
   color: black;
   text-align: center;
   line-height: 40px;
   font-weight: bold;
   border-radius: 4px; /* Adjust the border-radius value to make it more or less rounded */
   font-size: 20px;
+}
+
+.project-square-C {
+  display: inline-block;
+  width: 128px;
+  height: 128px;
+  background-color: #0eee06;
+  color: black;
+  text-align: center;
+  line-height: 40px;
+  font-weight: bold;
+  border-radius: 4px; /* Adjust the border-radius value to make it more or less rounded */
+  font-size: 20px;
+}
+
+.project-square-D {
+  display: inline-block;
+  width: 128px;
+  height: 128px;
+  background-color: #afa29e;
+  color: black;
+  text-align: center;
+  line-height: 40px;
+  font-weight: bold;
+  border-radius: 4px; /* Adjust the border-radius value to make it more or less rounded */
+  font-size: 20px; 
 }
 
 .GitHub {
