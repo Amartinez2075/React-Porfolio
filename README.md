@@ -33,12 +33,11 @@ WHEN I resize the page or view the site on various screens and devices
 
 THEN I am presented with a responsive layout that adapts to my viewport
 
-![Porfolio Image](<Screenshots/Porfolio Screenshot.png>)
+![React Porfolio Image](<my-app\public\Screenshots\React Porfolio Image.png>)
 
 ## Description 
 
 This is my own personal porfolio for possible employers or contractors to look at to get a feel of my coding experience and my background.
+I was able to configure it more with react and added some styling, any criticism is much appreciated and shoot me an email if you have any.
 
-## Link 
 
-https://amartinez2075.github.io/Website-Porfolio/
