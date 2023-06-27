@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import About from './components/About';
 import ContactMe from './components/ContactMe';
 import Skills from './components/Skills';
@@ -7,17 +7,39 @@ import Menubar from './components/Menubar';
 import Resume from './components/Resume';
 
 function App() {
+  const [page, setPage] = useState('');
+
+  const renderPage = () => {
+    if (page === 'About Me') {
+      return (
+        <>
+          < About />
+          <ContactMe />
+          <Skills />
+          <Projects />
+          <Resume />
+        </>
+      );
+    } else if (page === 'Contact Me') {
+      return <ContactMe />;
+    } else if (page === 'Skills') {
+      return <Skills />;
+    } else if (page === 'Projects') {
+      return <Projects />;
+    } else if (page === 'Resume') {
+      return <Resume />;
+    } else {
+      // Default page or handle other cases
+      return null;
+    }
+  };
+
   return (
     <div>
-      <Menubar />
-      <About />
-      <ContactMe />
-      <Skills />
-      <Projects />
-      <Resume />
+      <Menubar setPage={setPage} />
+      {renderPage()}
     </div>
   );
 }
 
 export default App;
-
