@@ -4,7 +4,7 @@
 
 AS AN employer
 I WANT to view a potential employee's deployed portfolio of work samples
-SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
+SO THAT I can review examples of their work and assess whether they're a good candidate for an open position
 
 ## Acceptance Criteria
 
@@ -37,7 +37,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Description 
 
-This is my own personal porfolio for possible employers or contractors to look at to get a feel of my coding experience and my background.
-I was able to configure it more with react and added some styling, any criticism is much appreciated and shoot me an email if you have any.
+This is my portfolio for possible employers or contractors to look at to get a feel of my coding experience and background.
+I was able to configure it more with React and added some styling, any criticism is much appreciated and shoot me an email if you have any.
 
 
