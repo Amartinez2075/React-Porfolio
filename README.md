@@ -33,7 +33,7 @@ WHEN I resize the page or view the site on various screens and devices
 
 THEN I am presented with a responsive layout that adapts to my viewport
 
-![React Porfolio Image](<my-app\public\Screenshots\React Porfolio Image.png>)
+![React Porfolio Image](my-app\public\Screenshots\React Porfolio Image.png)
 
 ## Description 
 
