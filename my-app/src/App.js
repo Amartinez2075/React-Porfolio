@@ -7,17 +7,14 @@ import Menubar from './components/Menubar';
 import Resume from './components/Resume';
 
 function App() {
-  const [page, setPage] = useState('');
+
+  const [page, setPage] = useState('About Me');
 
   const renderPage = () => {
     if (page === 'About Me') {
       return (
         <>
           < About />
-          <ContactMe />
-          <Skills />
-          <Projects />
-          <Resume />
         </>
       );
     } else if (page === 'Contact Me') {

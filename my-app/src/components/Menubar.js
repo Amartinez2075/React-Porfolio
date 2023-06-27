@@ -1,18 +1,45 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 function Menubar({ setPage }) {
+  const [activePage, setActivePage] = useState('About Me');
+
+  const handleClick = (page) => {
+    setPage(page);
+    setActivePage(page);
+  };
+
   return (
     <div className="Menu-Bar">
-      {/* <a href="#about">About Me</a> */}
-      <p onClick={() => setPage('About Me')}>About Me&nbsp;</p>
-      {/* <a href="#contact-me">Contact Me</a> */}
-      <p onClick={() => setPage('Contact Me')}>Contact Me&nbsp;</p>
-      {/* <a href="#skills">Skills</a> */}
-      <p onClick={() => setPage('Skills')}>Skills&nbsp;</p>
-      {/* <a href="#projects">Projects</a> */}
-      <p onClick={() => setPage('Projects')}>Projects&nbsp;</p>
-      {/* <a href="#resume">Resume</a> */}
-      <p onClick={() => setPage('Resume')}>Resume&nbsp;</p>
+      <p
+        className={activePage === 'About Me' ? 'active' : ''}
+        onClick={() => handleClick('About Me')}
+      >
+        About Me&nbsp;
+      </p>
+      <p
+        className={activePage === 'Contact Me' ? 'active' : ''}
+        onClick={() => handleClick('Contact Me')}
+      >
+        Contact Me&nbsp;
+      </p>
+      <p
+        className={activePage === 'Skills' ? 'active' : ''}
+        onClick={() => handleClick('Skills')}
+      >
+        Skills&nbsp;
+      </p>
+      <p
+        className={activePage === 'Projects' ? 'active' : ''}
+        onClick={() => handleClick('Projects')}
+      >
+        Projects&nbsp;
+      </p>
+      <p
+        className={activePage === 'Resume' ? 'active' : ''}
+        onClick={() => handleClick('Resume')}
+      >
+        Resume&nbsp;
+      </p>
     </div>
   );
 }
