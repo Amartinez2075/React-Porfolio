@@ -1,3 +1,5 @@
+import profile from  './Screenshots/profile.png'
+
 export default function About() {
   return (<div>
  
@@ -7,7 +9,7 @@ export default function About() {
   <header>Ashara Martinez</header>
   <h1> The Tale of a Full-Stack Developer </h1>
 
-  <img src="\Screenshots\Profile Picture Ashara.png" alt="Ashara-PF"/>
+  <img src={profile} alt="Ashara-PF"/>
   {/*   <!-- About Me Section -->*/}
   <section id="about">
     <h2>About Me</h2>
