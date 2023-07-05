@@ -18,6 +18,8 @@ export default function Resume() {
       <section id="Thick-Section">
         {/* Thick Section content here */}
       </section>
+      
     </div>
+    
   );
 }
