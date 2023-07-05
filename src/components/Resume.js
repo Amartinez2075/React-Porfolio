@@ -1,6 +1,9 @@
+import Skills from "./Skills";
+
 export default function Resume() {
   return (
     <div>
+      <Skills />
       {/* Resume Section */}
       <section id="resume">
         <h1>Resume</h1>

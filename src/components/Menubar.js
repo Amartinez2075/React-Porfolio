@@ -23,12 +23,6 @@ function Menubar({ setPage }) {
         Contact Me&nbsp;
       </p>
       <p
-        className={activePage === 'Skills' ? 'active' : ''}
-        onClick={() => handleClick('Skills')}
-      >
-        Skills&nbsp;
-      </p>
-      <p
         className={activePage === 'Projects' ? 'active' : ''}
         onClick={() => handleClick('Projects')}
       >
