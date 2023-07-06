@@ -40,3 +40,4 @@ This is my personal portfolio for possible employers or contractors to look at t
 I was able to configure it more with react and added some styling, any criticism is much appreciated and shoot me an email if you have any.
 
 
+- Correted skills and put it inside of Resume
