@@ -24,6 +24,9 @@ export default function About() {
 <section id="Thick-Section">
   {/* <!-- Orange Section content here --> */}
 </section>
+
+<footer> 
+</footer>
 </div>
 );
 };

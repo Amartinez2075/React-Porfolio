@@ -29,7 +29,7 @@ export default function ContactMe() {
   };
 
   return (
-    <footer>
+    <div>
       {/* Contact Me Section */}
       <section id="contact-me">
         <p>
@@ -54,10 +54,11 @@ export default function ContactMe() {
           </form>
         )}
       </section>
+    <footer>
     </footer>
+    </div>
   );
 }
-
 
 // Current Public API key = q1wuDMMOgKS24_Bmk
 // Current Template ID = template_yy9bdwi

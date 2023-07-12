@@ -273,11 +273,47 @@ footer {
   padding: 20px;
   text-align: center;
   color: #ffffff;
+  background-color: #76D0B4;;
 }
 
 footer h2 {
   font-size: 24px;
   margin-bottom: 10px;
+}
+
+.project-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.project-container h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.project-container img {
+  width: 200px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.project-container p {
+  margin-bottom: 10px;
+}
+
+.project-container a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.project-container a:hover {
+  color: blue;
 }
 
 #contact-me {
