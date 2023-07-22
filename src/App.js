@@ -5,6 +5,7 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Menubar from './components/Menubar';
 import Resume from './components/Resume';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -35,6 +36,7 @@ function App() {
     <div>
       <Menubar setPage={setPage} />
       {renderPage()}
+      <Footer />
     </div>
   );
 }
