@@ -33,9 +33,6 @@ const Skills = () => {
       <section className="skill-box mern stack">MERN Stack</section>
       <section className="skill-box mvc">MVC</section>
       <section className="skill-box es6">ES6</section>
-      <footer>
-      
-</footer>
     </div>
   );
 };
