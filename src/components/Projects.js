@@ -33,6 +33,11 @@ const Project = ({ title, description, imageUrl, githubLink, deployedLink }) => 
     <span className="project-square-D">Employee Tracker</span>
     </a>
     </p>
+    <p>
+    <a href="https://saint-louis-pets-554-d862dc3f7739.herokuapp.com/">
+    <span className="project-rectangle-A">Saint Louis Pets</span>
+    </a>
+    </p>
     </div>
     </section>
     </div>
