@@ -8,7 +8,7 @@ export default function Resume() {
       <section id="resume">
         <h1>Resume</h1>
         <p>
-        <a href={process.env.PUBLIC_URL + "/AshMart Resume.pdf"} download>
+        <a href={process.env.PUBLIC_URL + "/Ashara Martinez Dev Resume.pdf"} download>
   <button>Download Resume</button>
 </a>
         </p>
