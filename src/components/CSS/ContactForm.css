@@ -1,0 +1,72 @@
+#contact-me {
+  text-align: center;
+  margin: 20px;
+  font-size: 24px;
+  color: #233D4D; /* Midnight Blue */
+}
+
+#contact-me h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#showFormBtn {
+  background-color: #1E2833; /* Dark Slate Gray */
+  color: #233D4D; /* Midnight Blue */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#showFormBtn:hover {
+  background-color: #75B4B4; /* Light Teal */
+  color: #233D4D; /* Midnight Blue */
+}
+
+#contactForm {
+  text-align: left;
+  margin-top: 20px;
+}
+
+#contactForm label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #1E2833; /* Dark Slate Gray */
+}
+
+#contactForm input[type="text"],
+#contactForm input[type="email"],
+#contactForm textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #233D4D; /* Midnight Blue */
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#contactForm textarea {
+  height: 120px;
+}
+
+#contactForm button[type="submit"] {
+  background-color: #2A5F75; /* Deep Sea Blue */
+  color: #fff; /* White */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#contactForm button[type="submit"]:hover {
+  background-color: #fff; /* White */
+  color: #233D4D; /* Midnight Blue */
+}
+
+button {
+  background-color: #0077B6; /* Tranquil Blue */
+  color: #233D4D; /* Midnight Blue */
+  display: block;
+  margin: 0 auto;
+}

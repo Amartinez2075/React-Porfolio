@@ -1,16 +1,15 @@
-import Skills from "./Skills";
-
+import Skills from './Skills';
 export default function Resume() {
   return (
     <div>
-      <Skills />
       {/* Resume Section */}
       <section id="resume">
-        <h1>Resume</h1>
+        <Skills />
         <p>
-        <a href={process.env.PUBLIC_URL + "/Ashara Martinez Dev Resume.pdf"} download>
-  <button>Download Resume</button>
-</a>
+        <h1>Resume</h1>
+          <a href={process.env.PUBLIC_URL + "/Ashara Martinez Dev Resume.pdf"} download>
+            <button>Download Resume</button>
+          </a>
         </p>
       </section>
       
@@ -19,9 +18,8 @@ export default function Resume() {
         {/* Thick Section content here */}
       </section>
       <footer>
-      
-    </footer>
+        {/* Footer content here */}
+      </footer>
     </div>
-    
   );
 }

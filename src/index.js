@@ -1,6 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import './components/CSS/ContactForm.css'
+import './components/CSS/Project.css'
+import './components/CSS/Skills.css'
+import './components/CSS/Resume.css'
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 

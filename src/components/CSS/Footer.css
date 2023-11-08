@@ -1,0 +1,10 @@
+.footer {
+  background-color: #5758BB; /* Harmony Violet */
+  color: #F0C987; /* Enlightened Gold */
+  text-align: center;
+  padding: 20px;
+}
+
+.footer p {
+  margin: 0;
+}
