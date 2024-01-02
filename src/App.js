@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
 import About from './components/About';
-import ContactMe from './components/ContactMe';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
-import Menubar from './components/Menubar';
+import Navigation from './components/Navigation';
 import Resume from './components/Resume';
 import Footer from './components/Footer';
 
@@ -18,8 +17,6 @@ function App() {
           < About />
         </>
       );
-    } else if (page === 'Contact Me') {
-      return <ContactMe />;
     } else if (page === 'Skills') {
       return <Skills />;
     } else if (page === 'Projects') {
@@ -34,7 +31,7 @@ function App() {
 
   return (
     <div>
-      <Menubar setPage={setPage} />
+      <Navigation setPage={setPage} />
       {renderPage()}
       <Footer />
     </div>

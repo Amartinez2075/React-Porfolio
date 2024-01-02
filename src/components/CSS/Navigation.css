@@ -1,0 +1,49 @@
+.Navigation {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  background-color: #6fca63; /* Stellar Blue background */
+  font-weight: 400;
+}
+
+.Navigation p {
+  display: block;
+  color: #000000; /* Galaxy White text color */
+  text-align: center;
+  padding: 14px 20px;
+  transition: background-color 0.3s ease;
+  position: relative;
+  cursor: pointer;
+  margin: 20px;
+}
+
+.Navigation p::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: #ff00bf; /* Galaxy White underline color */
+  transform: scaleX(0);
+  transition: transform 0.5s ease;
+}
+
+.Navigation p:hover {
+  background-color: #973e3e; /* Nebula Purple hover background */
+  color: #000000; /* Cosmic Silver text color */
+}
+
+.Navigation p:hover::after {
+  transform: scaleX(1);
+}
+
+.Navigation p.active {
+  background-color: #973e3e; /* Nebula Purple active background */
+  color: #000000; /* Cosmic Silver text color */
+  
+}
+
+.Navigation p.active::after {
+  transform: scaleX(1);
+}
