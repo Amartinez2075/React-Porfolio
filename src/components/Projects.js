@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './CSS/Project.css';
 import profile from './Screenshots/profile.png';
 
+
 const ProjectItem = ({ title, tools, description, githubLink, deployedLink }) => {
   const [expanded, setExpanded] = useState(false);
 
@@ -44,23 +45,14 @@ const Project = () => {
   const projects = [
     {
       id: 1,
-      title: 'No-React Website Portfolio',
-      description: 'Basic Website Portfolio with CSS and HTML.',
-      githubLink: 'https://github.com/Amartinez2075/Website-Porfolio',
-      deployedLink: 'https://amartinez2075.github.io/Website-Porfolio/',
-      tools: 'CSS, HTML',
+      title: 'Brewery Finder',
+      tools: 'React, CSS, API',
+      description: 'A Brewery Finder Application that tells the weather, location of a place, and other info.',
+      githubLink: 'https://github.com/Amartinez2075/Brewery-Finder',
+      deployedLink: 'https://amartinez2075.github.io/Brewery-Finder/',
     },
     {
       id: 2,
-      title: 'Coding Quiz',
-      tools: 'JavaScript, CSS, HTML',
-      description: 'This is a quiz about coding, with 5 questions total.',
-      githubLink: 'https://github.com/Amartinez2075?tab=repositories',
-      deployedLink: 'https://amartinez2075.github.io/Coding-Quiz-3/',
-    },
-    // Add more project objects as needed
-    {
-      id: 3,
       title: 'Work Day Scheduler',
       tools: 'JavaScript, CSS, HTML',
       description: 'Simple Work day Schedule and saves the user data.',
@@ -68,50 +60,34 @@ const Project = () => {
       deployedLink: 'https://amartinez2075.github.io/Work-Day-Scheduler/',
     },
     {
-      id: 4,
-      title: 'Brewery Finder',
-      tools: 'React, CSS, API',
-      description:'A Brewery Finder Application that tells the weather, location of a place, and other info.',
-      githubLink: 'https://github.com/Amartinez2075/Brewery-Finder',
-      deployedLink: 'https://amartinez2075.github.io/Brewery-Finder/',
+      id: 3,
+      title: 'Coding Quiz',
+      tools: 'JavaScript, CSS, HTML',
+      description: 'This is a quiz about coding, with 5 questions total.',
+      githubLink: 'https://github.com/Amartinez2075?tab=repositories',
+      deployedLink: 'https://amartinez2075.github.io/Coding-Quiz-3/',
     },
     {
-      id: 5,
-      title: 'Employee Tracker',
+      id: 4,
+      title: 'Terminal Based Employee Tracker',
       tools: 'Node.js, MySQL, Inquirer',
       description: 'A backend MySQL database, allows user to make, delete, and update employees, and more.',
       githubLink: 'https://github.com/Amartinez2075/Employee-Tracker',
     },
     {
-      id: 6,
+      id: 5,
       title: 'Ecommerce Backend',
       tools: 'Node.js, Express.js, Sequelize, MySQL',
       description: 'MySQL database that allows user to make, delete, and update products, tags, and categories.',
       githubLink: 'https://github.com/Amartinez2075/E-Commerce-Back-End',
     },
     {
-      id: 7,
-      title: 'Model View Controller Tech Blog',
-      tools: 'Node.js, Express.js, MySQL, Sequelize, Handlebars',
-      description: 'A blog that allows users to make, delete, and update posts, and comments',
-      githubLink: 'https://github.com/Amartinez2075/Model-View-Controller-Tech-Blog',
-      deployedLink: 'https://model-view.herokuapp.com/',
-    },
-    {
-      id: 8,
+      id: 6,
       title: 'Front and Back End Employee Tracker',
       tools: 'Node.js, Express.js, MySQL, Sequelize, Handlebars, JavaScript, HTML, CSS',
-      description:'A front and back end employee tracker that allows users to make, delete, and update employees, and more',
+      description: 'A front and back end employee tracker that allows users to make, delete, and update employees, and more',
       githubLink: 'https://github.com/Amartinez2075/Website-Porfolio',
       deployedLink: 'https://omicron-5498.herokuapp.com/',
-    },
-    {
-      id: 9,
-      title: 'Progressive Web Application Text Editor',
-      tools: 'Node.js, Express.js, IndexedDB, Service Worker',
-      description:'This is a text editor that allows users to make, delete, and update text, and saves it to the cache for offline use.',
-      githubLink: 'https://github.com/Amartinez2075/Progressive-Web-Applications--PWA--Challenge-Text-Editor#table-of-contents',
-      deployedLink: 'https://text-editor-pls-c273a9bf7b03.herokuapp.com/',
     },
   ];
 
