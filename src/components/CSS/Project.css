@@ -13,6 +13,18 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 5fr);
   grid-gap: 20px;
+  
+}
+
+.Github-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 20px;
+  background-color: black;
+  color: purple;
 }
 
 .project-item {
@@ -21,6 +33,21 @@ body {
   background-color: purple; /* Purple */
   border-radius: 8px;
   cursor: pointer;
+}
+
+p {
+  font-size: large;
+}
+
+img {
+  max-width: 100%;
+  max-height: 200%;
+  object-fit: contain;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+  margin: 20px auto 0;
 }
 
 .project-title {

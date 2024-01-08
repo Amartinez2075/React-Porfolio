@@ -2,8 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './components/CSS/About.css'
 import './components/CSS/Project.css'
-import './components/CSS/Skills.css'
-import './components/CSS/Resume.css'
 import './components/CSS/Navigation.css'
 import App from './App';
 import reportWebVitals from './reportWebVitals';

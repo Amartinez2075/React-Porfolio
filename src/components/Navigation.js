@@ -22,12 +22,7 @@ function Navigation ({ setPage }) {
       >
         Projects&nbsp;
       </p>
-      <p
-        className={activePage === 'Resume' ? 'active' : ''}
-        onClick={() => handleClick('Resume')}
-      >
-        Resume&nbsp;
-      </p>
+        &nbsp;
     </div>
   );
 }
