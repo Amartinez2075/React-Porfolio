@@ -1,100 +1,58 @@
+/* Styles.css */
+
+/* Global Styles */
+body {
+  font-family: 'Orbit', sans-serif;
+  margin: 0;
+  background-color: #000000; /* Midnight Black background */
+  color: #FFFFFF; /* Galaxy White text color */
+}
+
+/* Project Item Styles */
+.project-container {
+  display: grid;
+  grid-template-columns: repeat(4, 5fr);
+  grid-gap: 20px;
+}
+
+.project-item {
+  margin: 10px;
+  padding: 10px;
+  background-color: purple; /* Purple */
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.project-title {
+  font-size: 18px;
+  color: white; /* White */
+}
+
+.project-details {
+  margin-top: 10px;
+  padding-top: 10px;
+  font-size: 14px;
+  color: #FFFFFF; /* White */
+}
+
+.project-details a {
+  color: white; /* Space Green for links */
+}
+
+/* Project Container Styles */
 #projects {
   padding: 20px;
   text-align: center;
-  margin: 20px; /* Center the section horizontally */
-  max-width: 2000px; /* Limit the width of the section */
-  color: #233D4D; /* Midnight Blue */
+  margin: 20px;
+  max-width: 2000px;
+  color: #ffffff; /* White */
   margin: 100px;
 }
 
-#projects h1 {
-  font-size: 24px; /* Set the font size for the heading */
-  margin-bottom: 10px; /* Add spacing below the heading */
-  color: #2A5F75; /* Deep Sea Blue */
+h2 {
+  font-size: 24px;
+  margin: 20px;
+  color: purple; /* purple */
   border-radius: 50px;
-  text-align: left;
   text-align: center;
-  font-family: 'Courier New', Courier, monospace;
-}
-
-.project-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  margin-top: 10px;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-
-.project-container p {
-  margin-bottom: 20px;
-  margin-right: 5px;
-}
-
-.project-rectangle-A {
-  display: inline-block;
-  width: 256px;
-  height: 128px;
-  background-color: #2A5F75; /* Deep Sea Blue */
-  color: #FFFFFF; /* White */
-  text-align: center;
-  line-height: 40px;
-  font-weight: bold;
-  border-radius: 4px; /* Adjust the border-radius value to make it more or less rounded */
-  font-size: 20px;
-  text-align: center;
-}
-
-.project-square-A {
-  display: inline-block;
-  width: 128px;
-  height: 128px;
-  background-color: #233D4D; /* Midnight Blue */
-  color: #FFFFFF; /* White */
-  text-align: center;
-  line-height: 40px;
-  font-weight: bold;
-  border-radius: 4px; /* Adjust the border-radius value to make it more or less rounded */
-  font-size: 20px;
-}
-
-.project-square-B {
-  display: inline-block;
-  width: 128px;
-  height: 128px;
-  background-color: #1E2833; /* Dark Slate Gray */
-  color: #FFFFFF; /* White */
-  text-align: center;
-  line-height: 40px;
-  font-weight: bold;
-  border-radius: 4px; /* Adjust the border-radius value to make it more or less rounded */
-  font-size: 20px;
-}
-
-.project-square-C {
-  display: inline-block;
-  width: 128px;
-  height: 128px;
-  background-color: #75B4B4; /* Light Teal */
-  color: #233D4D; /* Midnight Blue */
-  text-align: center;
-  line-height: 40px;
-  font-weight: bold;
-  border-radius: 4px; /* Adjust the border-radius value to make it more or less rounded */
-  font-size: 20px;
-}
-
-.project-square-D {
-  display: inline-block;
-  width: 128px;
-  height: 128px;
-  background-color: #4EAF6A; /* Mint Green */
-  color: #233D4D; /* Midnight Blue */
-  text-align: center;
-  line-height: 40px;
-  font-weight: bold;
-  border-radius: 4px; /* Adjust the border-radius value to make it more or less rounded */
-  font-size: 20px; 
 }

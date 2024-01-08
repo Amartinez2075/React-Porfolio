@@ -3,26 +3,37 @@ body {
   font-family: 'Orbit', sans-serif;
   margin: 0;
 }
+
+/* Set default background color for div elements */
 div {
-  background-color: royalblue;
+  background-color: black;
 }
 
+/* Header styling */
 Header {
   font-family: 'Orbit', sans-serif;
   font-size: 50px;
   text-align: center;
   margin-top: 50px;
-  color: violet; /* Red text color */
+  color: darkred;
 }
 
+/* Color scheme reference:
+   Background: Black
+   Text: White
+   Accent: Purple
+   Highlight: Dark Red */
+  
+/* Styling for h1 elements */
 h1 {
   font-family: 'Orbit', sans-serif;
   font-size: 30px;
-  color: #1eff00; /* Rust Brown color */
+  color: purple; /* Purple */
   text-align: center;
   margin-bottom: 20px;
 }
 
+/* Styling for .ImageContainer */
 .ImageContainer {
   display: flex;
   justify-content: center;
@@ -30,10 +41,11 @@ h1 {
   flex-direction: column;
   width: 100%;
   margin-top: 20px;
-  background-color: royalblue;
-  color: violet; /* Galaxy White text color */
+  background-color: black;
+  color: purple; /* Purple */
 }
 
+/* Styling for images within .ImageContainer */
 .ImageContainer img {
   max-width: 100%;
   max-height: 200%;
@@ -45,51 +57,48 @@ h1 {
   margin: 20px auto 0;
 }
 
+/* Styling for #about section */
 #about {
   padding: 20px;
   text-align: center;
   margin: 20px;
   max-width: 600px;
-  color: violet; /* Galaxy White text color */
+  color: purple; /* Purple */
   text-align: center;
 }
 
+/* Styling for h2 within #about section */
 #about h2 {
   font-size: 24px;
   margin-bottom: 10px;
-  color: violet; /* Galaxy White text color */
+  color: darkred; /* Dark Red */
   border-radius: 50px;
 }
 
+/* Styling for p within #about section */
 #about p {
   font-size: 32px;
   line-height: 2;
-  color: #1eff00; /* Galaxy White text color */
+  color: purple; /* Purple */
   font-weight: 10px;
   font-size: 20px;
 }
 
+/* Styling for #Thick-Section */
 #Thick-Section {
-  background-color: #003366; /* Stellar Blue background */
+  background-color: black; /* Black */
   padding: 10px;
   text-align: center;
   margin: 20px;
   max-width: 3000px;
 }
 
-h2 {
-  font-size: 24px;
-  text-align: center;
-  margin-bottom: 10px;
-  color: #1eff00; /* Galaxy White text color */
-  border-radius: 50px;
-}
-
+/* Styling for .GitHub */
 .GitHub {
   display: inline-block;
   width: 128px;
   height: 128px;
-  background-color: #FFFFFF; /* Galaxy White background */
+  background-color: #FFFFFF; /* White background */
   color: #000; /* Black text color */
   text-align: center;
   line-height: 40px;
@@ -97,85 +106,112 @@ h2 {
   font-size: 20px;
 }
 
+/* Styling for #contact-me section */
 #contact-me {
   text-align: center;
   margin: 20px;
   font-size: 24px;
-  color: #233D4D; /* Midnight Blue */
+  color: purple; /* Galaxy White text color */
 }
 
+/* Styling for h2 within #contact-me section */
 #contact-me h2 {
   font-size: 24px;
   margin-bottom: 10px;
 }
 
+/* Styling for #showFormBtn */
 #showFormBtn {
-  background-color: #ffffff; /* Dark Slate Gray */
-  color: #000000; /* Midnight Blue */
+  background-color: #ffffff;
+  color: #000000;
   padding: 10px 20px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  margin: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
+/* Hover effect for #showFormBtn */
 #showFormBtn:hover {
-  background-color: #75B4B4; /* Light Teal */
-  color: #233D4D; /* Midnight Blue */
+  background-color: darkred; /* Dark Red */
+  color: white; /* White */
 }
 
+/* Styling for #contactForm */
 #contactForm {
   text-align: left;
   margin-top: 20px;
 }
 
+/* Styling for labels within #contactForm */
 #contactForm label {
   margin-bottom: 5px;
   font-weight: bold;
-  color: #1E2833; /* Dark Slate Gray */
+  color: darkred; /* Dark Red */
 }
 
+/* Styling for input and textarea within #contactForm */
 #contactForm input[type="text"],
 #contactForm input[type="email"],
 #contactForm textarea {
-  width: 100%;
+  width: 15%;
   padding: 10px;
   margin-bottom: 10px;
-  border: 1px solid #233D4D; /* Midnight Blue */
+  border: 2px solid purple; /* Purple */
   border-radius: 4px;
-  box-sizing: border-box;
+  box-sizing: content-box;
 }
 
+/* Styling for textarea within #contactForm */
 #contactForm textarea {
   height: 120px;
 }
 
+/* Styling for button within #contactForm */
 #contactForm button[type="submit"] {
-  background-color: #2A5F75; /* Deep Sea Blue */
-  color: #fff; /* White */
+  background-color: purple; /* Purple */
+  color: white; /* White */
   padding: 10px 20px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
 }
 
+/* Hover effect for button within #contactForm */
 #contactForm button[type="submit"]:hover {
-  background-color: #fff; /* White */
-  color: #233D4D; /* Midnight Blue */
+  background-color: darkred; /* Dark Red */
+  color: white; /* White */
 }
 
+/* Styling for generic buttons */
 button {
-  background-color: #0077B6; /* Tranquil Blue */
-  color: #233D4D; /* Midnight Blue */
+  background-color: purple; /* Purple */
+  color: white; /* White */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 10px;
   display: block;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
+/* Hover effect for generic buttons */
+button:hover {
+  background-color: darkred; /* Dark Red */
+  color: white; /* White */
+}
 
-
+/* Styling for footer */
 footer {
   text-align: center;
 }
 
+/* Styling for h2 within footer */
 footer h2 {
   font-size: 24px;
   margin-bottom: 10px;

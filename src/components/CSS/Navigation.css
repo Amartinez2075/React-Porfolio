@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   overflow: hidden;
-  background-color: #6fca63; /* Stellar Blue background */
+  background-color: purple; /* Stellar Blue background */
   font-weight: 400;
 }
 
@@ -15,6 +15,8 @@
   position: relative;
   cursor: pointer;
   margin: 20px;
+  font-size: large;
+  font-style: italic;
 }
 
 .Navigation p::after {
@@ -24,14 +26,14 @@
   left: 0;
   width: 100%;
   height: 3px;
-  background-color: #ff00bf; /* Galaxy White underline color */
+  background-color: purple; /* Galaxy White underline color */
   transform: scaleX(0);
   transition: transform 0.5s ease;
 }
 
 .Navigation p:hover {
-  background-color: #973e3e; /* Nebula Purple hover background */
-  color: #000000; /* Cosmic Silver text color */
+  background-color: white; /* Nebula Purple hover background */
+  color: darkred; /* Cosmic Silver text color */
 }
 
 .Navigation p:hover::after {
@@ -39,8 +41,8 @@
 }
 
 .Navigation p.active {
-  background-color: #973e3e; /* Nebula Purple active background */
-  color: #000000; /* Cosmic Silver text color */
+  background-color: white; /* Nebula Purple active background */
+  color: purple; /* Cosmic Silver text color */
   
 }
 
