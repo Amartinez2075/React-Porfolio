@@ -43,9 +43,13 @@
 .Navigation p.active {
   background-color: white; /* Nebula Purple active background */
   color: purple; /* Cosmic Silver text color */
-  
 }
 
 .Navigation p.active::after {
   transform: scaleX(1);
 }
+
+
+  .Navigation p {
+    margin: 10px; /* Adjust margin for smaller screens */
+  }
